@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:sharpsell_app/model/model_page_data.dart';
-import 'package:sharpsell_app/util/utl_constants.dart';
+import 'package:sharpsell_app/util/url_constants.dart';
 
 class ComicServices {
   final dio = Dio();
