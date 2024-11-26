@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sharpsell_app/comic/comic.dart';
-import 'package:sharpsell_app/l10n/l10n.dart';
+import 'package:sharpsell_app/comic/comic_page.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -14,9 +13,7 @@ class App extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      localizationsDelegates: AppLocalizations.localizationsDelegates,
-      supportedLocales: AppLocalizations.supportedLocales,
-      home: const Comic(),
+      home: const ComicPage(),
     );
   }
 }
